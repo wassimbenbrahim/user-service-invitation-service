@@ -1,0 +1,47 @@
+{
+	"info": {
+		"_postman_id": "ba2efe7b-dd19-47fa-a033-6e6caad34a5b",
+		"name": "invitation Batch Mail",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Send Invitations",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"url": {
+					"raw": "localhost:8080/api/sendInvitation",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"sendInvitation"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Count Invitations",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "localhost:8080/api/countInvitations",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"countInvitations"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
